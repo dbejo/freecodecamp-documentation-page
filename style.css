@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family:'Roboto';
+  }
+  
+  #main-doc {
+    position: absolute;
+    margin: 10px;
+    left: 300px;
+  }
+  
+  #navbar {
+    position: fixed;
+    width: 300px;
+    left: 0;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #main-doc {
+      left: 0;
+    }
+    #navbar {
+      z-index: 1;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+  #navbar ul {
+    padding: 0;
+    margin: 0;
+  }
+  #navbar li {
+    list-style: none;
+    position: relative;
+    background: #eee;
+    width: 100%;
+  }
+  
+  #navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  #navbar header {
+    padding: 10px;
+    background: #eee;
+    font-weight: bold;
+    border-bottom: 2px solid #212121;
+    font-size: 1em;
+  }
+  
+  header {
+    font-size: 1.5em;
+  }
+  
+  code {
+    background: #e3e3e3;
+    color: #a30000;
+    padding: 5px;
+  }
+  
+  article {
+    margin: 10px;
+  }
